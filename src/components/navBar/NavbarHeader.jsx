@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-import "./Navbar.css";
+import "./NavbarHeader.css";
 
 const navLinks = [
   { name: "الرئيسية", path: "/" },
@@ -11,7 +11,7 @@ const navLinks = [
   { name: "إكسسوارات", path: "/accessories" },
 ];
 
-const Navbar = () => {
+const NavbarHeader = () => {
   const [open, setOpen] = useState(false);
 
   const closeMenu = () => setOpen(false);
@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="navbar__inner">
         <Link to="/" className="navbar__logo" onClick={closeMenu}>
           <span>
-            Tbark&nbsp;<strong>Store</strong>
+            RITA&nbsp;<strong>Store</strong>
           </span>
         </Link>
 
@@ -69,4 +69,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarHeader;

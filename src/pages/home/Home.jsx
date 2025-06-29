@@ -1,12 +1,12 @@
 import React from "react";
 import TopBar from "../../components/topBar/TopBar.jsx";
-import Navbar from "../../components/navBar/Navbar.jsx";
+import NavbarHeader from "../../components/navBar/NavbarHeader.jsx";
 
 const HomePage = () => {
   return (
     <div>
       <TopBar />
-      <Navbar />
+      <NavbarHeader />
     </div>
   );
 };

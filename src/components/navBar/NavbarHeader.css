@@ -1,8 +1,6 @@
 .navbar {
   background-color: var(--white);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-  font-family: var(--font-main);
-  direction: rtl;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -14,7 +12,7 @@
   padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between !important;
 }
 
 .navbar__logo {
