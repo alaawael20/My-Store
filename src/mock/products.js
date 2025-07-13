@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "أحمر شفاه فاخر",
-    image: "/assets/products/lipstick.png",
+    image: "/assets/lipstick.png",
     price: 49,
     oldPrice: 65,
     category: "مكياج",
@@ -11,7 +11,7 @@ export const products = [
   {
     id: 2,
     name: "كريم أساس مطفي",
-    image: "/assets/products/foundation.png",
+    image: "/assets/foundation.png",
     price: 85,
     oldPrice: 100,
     category: "مكياج",
@@ -20,7 +20,7 @@ export const products = [
   {
     id: 3,
     name: "ماسكارا مكثفة",
-    image: "/assets/products/mascara.png",
+    image: "/assets/mascara.png",
     price: 55,
     oldPrice: null,
     category: "مكياج",
@@ -29,7 +29,7 @@ export const products = [
   {
     id: 4,
     name: "دفاية كهربائية",
-    image: "/assets/products/heater.png",
+    image: "/assets/heater.png",
     price: 160,
     oldPrice: 200,
     category: "أجهزة منزلية",
@@ -38,7 +38,7 @@ export const products = [
   {
     id: 5,
     name: "ساعة يد نسائية",
-    image: "/assets/products/watch.png",
+    image: "/assets/watch.png",
     price: 120,
     oldPrice: 150,
     category: "إكسسوارات",
@@ -47,7 +47,7 @@ export const products = [
   {
     id: 6,
     name: "سلسلة ذهبية",
-    image: "/assets/products/necklace.png",
+    image: "/assets/necklace.png",
     price: 99,
     oldPrice: 130,
     category: "إكسسوارات",
@@ -56,7 +56,7 @@ export const products = [
   {
     id: 7,
     name: "بلوزة صيفية",
-    image: "/assets/products/tshirt.png",
+    image: "/assets/tshirt.png",
     price: 65,
     oldPrice: 80,
     category: "ملابس",
@@ -65,7 +65,7 @@ export const products = [
   {
     id: 8,
     name: "حقيبة ظهر للأطفال",
-    image: "/assets/products/kids-bag.png",
+    image: "/assets/kids-bag.png",
     price: 70,
     oldPrice: 90,
     category: "أطفال",
@@ -74,7 +74,7 @@ export const products = [
   {
     id: 9,
     name: "سماعات بلوتوث",
-    image: "/assets/products/headphones.png",
+    image: "/assets/headphones.png",
     price: 110,
     oldPrice: 140,
     category: "إلكترونيات",
@@ -83,7 +83,7 @@ export const products = [
   {
     id: 10,
     name: "لوحة مفاتيح مضيئة",
-    image: "/assets/products/keyboard.png",
+    image: "/assets/keyboard.png",
     price: 89,
     oldPrice: null,
     category: "إلكترونيات",
