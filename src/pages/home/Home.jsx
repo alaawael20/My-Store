@@ -1,18 +1,18 @@
 import React from "react";
-import TopBar from "../../components/topBar/TopBar.jsx";
-import NavbarHeader from "../../components/navBar/NavbarHeader.jsx";
 import PromoCarousel from "../../components/promoCarousel/PromoCarousel.jsx";
 import CategoriesSection from "./sections/categoriesSection/CategoriesSection.jsx";
 import TabbedCategoryProducts from "./sections/tabbedCategoryProducts/TabbedCategoryProducts.jsx";
+import TestimonialsTicker from "./sections/testimonialsTicker/TestimonialsTicker.jsx";
+import Newsletter from "./sections/newsletter/Newsletter.jsx";
 
 const HomePage = () => {
   return (
     <div>
-      <TopBar />
-      <NavbarHeader />
       <PromoCarousel />
       <CategoriesSection />
       <TabbedCategoryProducts />
+      <TestimonialsTicker />
+      <Newsletter />
     </div>
   );
 };
